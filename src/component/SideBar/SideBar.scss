@@ -1,0 +1,80 @@
+.sideBar{
+  height: 100vh;
+  width: 60px;
+  background-color: #181818;
+  padding: 10px;
+
+.logo{
+  text-decoration: none;
+
+  .letter{
+    width: 30px;
+    display: block;
+    margin: 42px auto ;
+    margin-bottom: 0;
+  }
+  .my_name{
+    font-family: La Belle Aurore;
+    color: #fff;
+    margin-top: 2px;
+text-align: center;    
+display: block;
+margin-right: 9px;
+font-size: 19px;
+
+  }
+}
+ nav{
+
+width: 100%;
+height: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 34px ;
+margin-top: 90px;
+
+a{
+
+  color: #414040;
+  font-size: 28px;
+transition: .4s ease;
+position: relative;
+
+}
+a.active{
+color: #ffd700;
+}
+a:hover{
+  color: #fff;
+
+}
+
+
+
+ }
+ ul{
+  list-style: none;
+  width: 100%;
+padding: 10px;
+text-align: center;
+li{
+
+padding-right: 10px;
+a{
+
+  font-size: 23px;
+  color: #414040;
+  transition: .4s ease;
+
+}
+a:hover{
+  color: #ffd700;
+}
+
+
+}
+
+ }
+
+}
