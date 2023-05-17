@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss";
+import "./Home.css";
 import { Link} from 'react-router-dom'
 import Letter from "../../assets/images/my_letter-removebg-preview.png";
 function Hom() {
@@ -17,11 +17,11 @@ function Hom() {
 
           </h1>
         </div>
-        <div className="btn_div">
-        
-            <Link to="/contact">contact</Link>
-        
-        </div>
+      
+        <button className="btn_div">
+        <Link to="/contact">contact</Link>
+
+        </button>
       </div>
     </div>
   );

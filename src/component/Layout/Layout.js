@@ -12,8 +12,6 @@ function Layout() {
 <h2> &lt;html&gt;</h2>
 <h2> &lt;body&gt;</h2>
   </div>
-
-
   <div className="bottom_tages tages">
   <h2> &lt;/html&gt;</h2>
 <h2> &lt;/body&gt;</h2>
